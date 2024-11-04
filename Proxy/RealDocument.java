@@ -3,7 +3,7 @@ package Proxy;
 import java.util.Date;
 
 public class RealDocument implements Document {
-    public static int globalId;
+    public static int globalId = -1;
     public final int id;
     public Date creationDate;
     private final String content;
